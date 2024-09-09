@@ -1,0 +1,9 @@
+Dockerfile
+# Utiliza una imagen base oficial de MySQL
+FROM mysql:latest
+
+# Establece la contraseña del root de MySQL
+ENV MYSQL_ROOT_PASSWORD=tu_contraseña_segura
+
+# Expone el puerto 3306 para conexiones MySQL
+EXPOSE 3306
